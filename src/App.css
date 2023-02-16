@@ -1,0 +1,178 @@
+.app__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1em;
+    /* margin-bottom: 2em; */
+    padding-bottom: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.app__form {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0003;
+    backdrop-filter: blur(2px);
+    transform: scale(0);
+    transition: transform 200ms ease;
+
+}
+
+.app__form-visible {
+    transform: scale(1);
+
+    
+}
+
+.form  {
+    padding: 0.2em;
+    width: 100%;
+    max-width: 350px;
+    background-color: white;
+    height: max-content;
+    border-radius: 0.7em;
+    position: relative;
+    padding: 1rem;
+
+}
+
+.form__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+
+.form__x {
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em;
+    font-size: 1.2rem;
+    color: rgb(255, 60, 60);
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+
+.form__x:hover {
+    transform: scale(1.2);
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    margin-bottom: 0.8em;
+}
+
+.form__label {
+    color: rgb(54, 53, 53);
+    padding-left: 1em;
+    display: flex;
+}
+
+.form__input {
+    padding: 0.4em 0.8em;
+    
+}
+
+.form__btn {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #FF6E31;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.app__btn-form {
+    width: 130px;
+    padding: 0.8em;
+    background-color: #FF6E31;
+    display: flex;
+    border-radius: 0.8em;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.card {
+    width: 350px;
+    max-width: 400px;
+    border: 0.1em rgb(59, 58, 58) solid;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8em;
+    
+    
+    
+}
+
+.card__name {
+    text-align: center;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+/* .card__icon {
+} */
+
+.card__items {
+    list-style: none;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.card__span {
+    font-size: 1.2rem;
+    color: rgb(155, 154, 154);
+    font-weight: 400;
+}
+
+.container__btn {
+    display: flex;
+    justify-content: end;
+    padding-right: 1em;
+}
+
+.card__btn {
+    width: 40px;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    background-color: #FF6E31;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.tutu {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hr {
+    border: none;
+    border-top: 1px solid #e69572;
+    margin: 1em;
+}
+
+.icon__formm {
+    width: 20px;
+    color: #FF6E31;
+}
+
+.card__birthday {
+    width: 15px;
+}
+
+
